@@ -3,10 +3,10 @@
 	import '../app.css';
 </script>
 
-<div class="app">
+<div class="app min-h-screen">
 	<Header />
 
-	<main>
+	<main class="min-h-screen">
 		<slot />
 	</main>
 
