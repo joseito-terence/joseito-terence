@@ -1,6 +1,10 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/JTF.png';
+
+	function toggleTheme() {
+		document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'light' ? 'night' : 'light';	
+	}
 </script>
 
 <header class="bg-base/95 border-b-[0.2px] border-b-neutral-700 fixed top-0 left-0 right-0">
@@ -15,7 +19,7 @@
 			<a href="/">Home</a>
 			<a href="#projects">Projects</a>
 			<a href="#contact">Contact</a>
-			<input type="checkbox" class="toggle" checked />
+			<input type="checkbox" class="toggle" checked on:change={toggleTheme} />
 		</nav>
 	</div>
 </header>
