@@ -1,7 +1,11 @@
-<section class="flex flex-row overflow-hidden">
-	<div class="container flex flex-row">
+<script>
+	import Skills from "./Skills.svelte";
+</script>
+
+<section class="flex flex-row overflow-hidden h-screen">
+	<div class="container flex flex-col md:flex-row">
 		<div
-			class="h-screen flex-1 flex flex-col justify-center
+			class="min-h-[77vh] h-screen flex-1 flex flex-col justify-center
       after:content-['Software_Developer'] after:ml-0.5 after:text-neutral/40 dark:after:text-neutral-content/5
       after:font-extrabold after:text-[10rem] after:leading-none after:tracking-wide
       after:absolute after:left-[-5%]"
@@ -11,6 +15,8 @@
 				Software Developer
 			</h2>
 		</div>
-		<div class="flex-1" />
+		<div class="flex-1">
+			<Skills />
+		</div>
 	</div>
 </section>
