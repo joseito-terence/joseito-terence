@@ -2,8 +2,7 @@
 	fill="#1A1A1A"
 	xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 50 50"
-	width="50px"
-	height="50px"
+	class="skill-svg"
 	fill-rule="evenodd"
 >
 	<path

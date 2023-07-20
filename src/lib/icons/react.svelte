@@ -1,7 +1,6 @@
 <svg
 	fill="#000000"
-	width="50px"
-	height="50px"
+	class="skill-svg"
 	viewBox="0 0 14 14"
 	role="img"
 	focusable="false"
