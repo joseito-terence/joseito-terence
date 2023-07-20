@@ -7,7 +7,7 @@
 	}
 </script>
 
-<header class="bg-base/95 border-b-[0.2px] border-b-neutral-700 fixed top-0 left-0 right-0 bg-base-100/80  z-[1000]">
+<header class="bg-base/95 border-b-[0.2px] border-b-neutral-700 fixed top-0 left-0 right-0 bg-base-100/90  z-[1000]">
 	<div class="container flex flex-row items-center">
 		<div class="flex-1">
 			<div class="w-[40px] h-[40px] rounded-full bg-slate-300 flex justify-center items-center">
