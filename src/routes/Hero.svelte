@@ -5,10 +5,10 @@
 <section class="flex flex-row overflow-hidden h-screen">
 	<div class="container flex flex-col md:flex-row">
 		<div
-			class="min-h-[77vh] h-screen flex-1 flex flex-col justify-center
+			class="min-h-[77vh] h-screen flex-1 flex flex-col justify-center relative
       after:content-['Software_Developer'] after:ml-0.5 after:text-neutral/40 dark:after:text-neutral-content/5
       after:font-extrabold after:text-[10rem] after:leading-none after:tracking-wide
-      after:absolute after:left-[-5%]"
+      after:absolute after:left-[-50%]"
 		>
 			<h1 class="text-7xl font-bold dark:text-white">Hi, I'm Joseito</h1>
 			<h2 class="text-5xl font-medium text-neutral/80 dark:text-neutral-content/70">
