@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
+	class="bg-base-200 dark:bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
   flex flex-col md:flex-row gap-5"
 >
 	<div class="flex flex-col justify-between">

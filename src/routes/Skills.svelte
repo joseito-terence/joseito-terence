@@ -37,7 +37,7 @@
 	>
 		{#each skills as { name, icon }}
 			<div
-				class="min-w-[100px] bg-base-content flex justify-center items-center flex-col rounded-md aspect-square gap-3"
+				class="min-w-[100px] bg-base-100 dark:bg-base-content flex justify-center items-center flex-col rounded-md aspect-square gap-3"
 			>
 				<div>
 					<svelte:component this={icon} />

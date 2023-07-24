@@ -13,11 +13,11 @@
 	];
 </script>
 
-<footer id='contact' class="bg-base-200 flex justify-center items-center">
+<footer id='contact' class="bg-base-300 dark:bg-base-200 flex justify-center items-center">
 	<div
-		class="flex flex-col md:flex-row w-full md:w-[700px] md:m-3 bg-neutral-focus md:rounded-xl overflow-hidden"
+		class="flex flex-col md:flex-row w-full md:w-[700px] md:m-3 bg-slate-400  dark:bg-neutral-focus md:rounded-xl overflow-hidden"
 	>
-		<div class="w-full md:w-[270px] bg-secondary-content md:rounded-e-xl p-5 flex flex-col justify-between">
+		<div class="w-full md:w-[270px] bg-neutral dark:bg-secondary-content text-white dark:text-inherit md:rounded-e-xl p-5 flex flex-col justify-between">
       <div>
         <h1 class="text-3xl font-bold">Contact</h1>
         <p class="text-xl font-light mb-9 tracking-wide">Any questions or remarks? Just write me a message</p>
