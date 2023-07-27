@@ -17,7 +17,7 @@
 				consectetur et, maxime, earum pariatur sed. Nisi!
 			</p>
 
-			<div class="text-sm my-3">
+			<div class="text-sm my-3 flex flex-wrap gap-2">
 				<span class="rounded bg-neutral-focus py-1 px-2">React</span>
 				<span class="rounded bg-neutral-focus py-1 px-2">Firebase</span>
 				<span class="rounded bg-neutral-focus py-1 px-2">Bootstrap</span>

@@ -9,24 +9,34 @@
 	import Database from '$lib/icons/database.svelte';
 	import Tailwind from '$lib/icons/tailwind.svelte';
 	import Typescript from '$lib/icons/typescript.svelte';
+	import { fly } from 'svelte/transition';
+	import { onMount } from 'svelte';
 
-	let skills = [
-		{ name: 'React', icon: React },
-		{ name: 'Sass', icon: Sass },
-		{ name: 'Javascript', icon: Javascript },
-		{ name: 'CSS', icon: CSS },
-		{ name: 'Tailwind', icon: Tailwind },
-		{ name: 'Typescript', icon: Typescript },
-		{ name: 'NextJS', icon: Nextjs },
-		{ name: 'Docker', icon: Docker },
-		{ name: 'Git', icon: Git },
-		{ name: 'Database', icon: Database }
-	];
-	skills = [...skills, ...skills];
+	/**
+	 * @type {any[]}
+	 */
+	let skills = [];
+
+	onMount(() => {
+		skills = [
+			{ name: 'React', icon: React },
+			{ name: 'Sass', icon: Sass },
+			{ name: 'Javascript', icon: Javascript },
+			{ name: 'CSS', icon: CSS },
+			{ name: 'Tailwind', icon: Tailwind },
+			{ name: 'Typescript', icon: Typescript },
+			{ name: 'NextJS', icon: Nextjs },
+			{ name: 'Docker', icon: Docker },
+			{ name: 'Git', icon: Git },
+			{ name: 'Database', icon: Database }
+		];
+		skills = [...skills, ...skills];
+	});
 </script>
 
 <div
 	class="bg-neutral relative p-3
+	min-h-[124px] md:min-h-[400vh]
   rotate-0 translate-x-0 translate-y-0
   md:rotate-12 md:translate-x-[10%] md:translate-y-[-10%]"
 >
@@ -35,15 +45,18 @@
     md:grid md:grid-cols-2 gap-3
     animate-slideX md:animate-slideY hover:no-animation"
 	>
-		{#each skills as { name, icon }}
+		{#each skills as { name, icon }, i}
 			<div
 				class="min-w-[100px] bg-base-100 dark:bg-base-content flex justify-center items-center flex-col rounded-md aspect-square gap-3"
+				transition:fly={{ y: 10 * i, duration: 1000 }}
 			>
 				<div>
 					<svelte:component this={icon} />
 				</div>
 				<div>
-					<h3 class="text-sm md:text-md text-neutral font-medium tracking-wider uppercase">{name}</h3>
+					<h3 class="text-sm md:text-md text-neutral font-medium tracking-wider uppercase">
+						{name}
+					</h3>
 				</div>
 			</div>
 		{/each}
