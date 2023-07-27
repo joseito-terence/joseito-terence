@@ -15,11 +15,11 @@
 			</div>
 		</div>
 
-		<nav class="flex-none flex justify-center items-center gap-4 sm:gap-8 font-medium">
+		<nav class="flex-none flex justify-center items-center gap-4 sm:gap-8 font-medium uppercase">
 			<a href="/">Home</a>
 			<a href="#projects">Projects</a>
 			<a href="#contact">Contact</a>
-			<input type="checkbox" class="toggle" checked on:change={toggleTheme} />
+			<!-- <input type="checkbox" class="toggle" checked on:change={toggleTheme} /> -->
 		</nav>
 	</div>
 </header>
