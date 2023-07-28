@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project 1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias veritatis ut quia nobis totam optio quos commodi suscipit voluptatibus soluta nostrum molestiae consectetur et, maxime, earum pariatur sed. Nisi!",
+		"image": "https://github.com/joseito-terence/speedwagoan/raw/master/readme_images/394.jpg",
+    "tags": ["React", "Firebase", "Bootstrap", "Algolia Search"],
+    "links": {
+      "site": "https://speedwagoan.web.app",
+      "github": "https://github.com/joseito-terence/speedwagoan/",
+      "figma": "https://www.figma.com/file/0ZnbhtAgTWePldSPfhX4cF/Personal-Portfolio?type=design&node-id=5%3A5&mode=design&t=HeoTwm8XfcYBaETJ-1"
+    }
+  },
+  {
+    "title": "Project 1",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias veritatis ut quia nobis totam optio quos commodi suscipit voluptatibus soluta nostrum molestiae consectetur et, maxime, earum pariatur sed. Nisi!",
+		"image": "https://github.com/joseito-terence/speedwagoan/raw/master/readme_images/394.jpg",
+    "tags": ["React", "Firebase", "Bootstrap", "Algolia Search"],
+    "links": {
+      "site": "https://speedwagoan.web.app",
+      "github": "https://github.com/joseito-terence/speedwagoan/"
+    }
+  }
+]
