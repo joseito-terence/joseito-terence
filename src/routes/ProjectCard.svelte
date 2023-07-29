@@ -3,14 +3,14 @@
 	import FaFigma from 'svelte-icons/fa/FaFigma.svelte';
 	import IoIosArrowForward from 'svelte-icons/io/IoIosArrowForward.svelte';
 	/**
-	 * @type {{ title: any; description: any; tags: any; links: { site: any; github: any; figma: any; }; image: any; }}
+	 * @type {{ title: string; description: string; tags: string[]; links: { site?: string; github?: string; figma?: string; }; image: string; }}
 	 */
-	 export let project;
+	export let project;
 </script>
 
 <div
 	class="bg-base-200 dark:bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
-  flex flex-col md:flex-row gap-5"
+  flex flex-col md:flex-row gap-5 md:odd:flex-row-reverse"
 >
 	<div class="flex flex-col justify-between flex-1">
 		<div>
@@ -26,32 +26,36 @@
 			</div>
 		</div>
 
-		<div class="flex flex-row gap-3 mt-6">
-			{#if project.links.site}
+		<div class="flex flex-row gap-3 mt-6 justify-between md:justify-normal">
+			{#if project.links?.site}
 				<a href={project.links.site} target="_blank">
-					<button class="btn"> View Site <span class="w-[24px]"><IoIosArrowForward /></span> </button>
-				</a>
-			{/if}
-			
-			{#if project.links.github}
-				<a href={project.links.github} target="_blank">
-					<button class="btn btn-circle p-1" title='View Code'> <IoLogoGithub /> </button>
+					<button class="btn">
+						View Site <span class="w-[24px]"><IoIosArrowForward /></span>
+					</button>
 				</a>
 			{/if}
 
-			{#if project.links.figma}
-				<a href={project.links.figma} target="_blank">
-					<button class="btn btn-circle p-2" title='View Design'> <FaFigma /> </button>
-				</a>
-			{/if}
+			<div class="flex flex-row gap-3">
+				{#if project.links?.github}
+					<div class="tooltip" data-tip="View Code">
+						<a href={project.links.github} target="_blank" class="btn btn-circle p-1">
+							<IoLogoGithub />
+						</a>
+					</div>
+				{/if}
+
+				{#if project.links?.figma}
+					<div class="tooltip" data-tip="View Design">
+						<a href={project.links.figma} target="_blank" class="btn btn-circle p-2">
+							<FaFigma />
+						</a>
+					</div>
+				{/if}
+			</div>
 		</div>
 	</div>
 
 	<div class="flex items-center w-full md:w-[325px]">
-		<img
-			class="rounded"
-			src={project.image}
-			alt={project.title}
-		/>
+		<img class="rounded" src={project.image} alt={project.title} />
 	</div>
 </div>

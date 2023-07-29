@@ -2,6 +2,7 @@
 	import ProjectCard from "./ProjectCard.svelte";
   import projects from "$lib/projects.json";
 </script>
+
 <section id="projects" class="relative overflow-hidden">
 	<div
 		class="text-neutral/5 dark:text-neutral-content/5
