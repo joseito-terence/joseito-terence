@@ -12,7 +12,7 @@
 	class="bg-base-200 dark:bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
   flex flex-col md:flex-row gap-5"
 >
-	<div class="flex flex-col justify-between">
+	<div class="flex flex-col justify-between flex-1">
 		<div>
 			<h1 class="text-2xl tracking-wide font-bold mb-2">{project.title}</h1>
 			<p class="text-lg font-light">
@@ -28,27 +28,28 @@
 
 		<div class="flex flex-row gap-3 mt-6">
 			{#if project.links.site}
-				<a href={project.links.site}>
+				<a href={project.links.site} target="_blank">
 					<button class="btn"> View Site <span class="w-[24px]"><IoIosArrowForward /></span> </button>
 				</a>
 			{/if}
 			
 			{#if project.links.github}
-				<a href={project.links.github}>
+				<a href={project.links.github} target="_blank">
 					<button class="btn btn-circle p-1" title='View Code'> <IoLogoGithub /> </button>
 				</a>
 			{/if}
 
 			{#if project.links.figma}
-				<a href={project.links.figma}>
+				<a href={project.links.figma} target="_blank">
 					<button class="btn btn-circle p-2" title='View Design'> <FaFigma /> </button>
 				</a>
 			{/if}
 		</div>
 	</div>
 
-	<div class="flex items-center w-full">
+	<div class="flex items-center w-full md:w-[325px]">
 		<img
+			class="rounded"
 			src={project.image}
 			alt={project.title}
 		/>
