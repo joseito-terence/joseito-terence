@@ -28,7 +28,7 @@
 		>
 			<div class="flex flex-col justify-between flex-1">
 				<div>
-					<h1 class="text-2xl tracking-wide font-bold mb-2">{project.title}</h1>
+					<h1 class="text-3xl md:text-2xl tracking-wide font-bold mb-2">{project.title}</h1>
 					<p class="text-lg font-light">
 						{project.description}
 					</p>
