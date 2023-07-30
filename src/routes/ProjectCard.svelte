@@ -18,13 +18,13 @@
 <div
 	use:inview={options}
 	on:inview_change={({ detail }) => (isInView = detail.inView)}
-	class="min-h-[100px] parent"
+	class="min-h-[100px] group/card"
 >
 	{#if isInView}
 		<div
 			transition:fly={{ y: 70, duration: 500, delay: 300 }}
 			class="bg-base-200 dark:bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
-  		flex flex-col md:flex-row gap-5"
+  		flex flex-col md:flex-row gap-5 group-odd/card:md:flex-row-reverse"
 		>
 			<div class="flex flex-col justify-between flex-1">
 				<div>
@@ -43,8 +43,14 @@
 				<div class="flex flex-row gap-3 mt-6 justify-between md:justify-normal">
 					{#if project.links?.site}
 						<a href={project.links.site} target="_blank">
-							<button class="btn">
-								View Site <span class="w-[24px]"><IoIosArrowForward /></span>
+							<button class="btn group/site">
+								View Site 
+								<span class="w-[24px] h-[24px] relative transition-all group-hover/site:translate-x-1">
+									<span class="w-[15px] h-[2px] opacity-0 rounded absolute top-[46%] right-[40%] 
+										group-hover/site:opacity-100 transition-all
+										bg-[hsl(var(--bc)_/_var(--tw-text-opacity))]" />
+									<IoIosArrowForward />
+								</span>
 							</button>
 						</a>
 					{/if}
@@ -76,10 +82,3 @@
 	{/if}
 </div>
 
-<style>
-	@media (min-width: 768px) {
-		.parent:nth-child(odd) > div {
-			flex-direction: row-reverse;
-		}
-	}
-</style>
