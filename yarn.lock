@@ -1773,6 +1773,11 @@ svelte-icons@^2.1.0:
   resolved "https://registry.yarnpkg.com/svelte-icons/-/svelte-icons-2.1.0.tgz#6f2ec72f1d5c8b2de1a4b8a822c95bcb2f701aca"
   integrity sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==
 
+svelte-inview@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/svelte-inview/-/svelte-inview-4.0.1.tgz#27899a2a6fd16c24732ffa9bb4fd712cc8fadabc"
+  integrity sha512-8NuT/DKFiZAccDw1Z16cIsdZ7K6/BGxrUfDaFaWTCEdn3YqMj1TUAkfmQ08FQ1+INl1G+TQS+ImXIBiiISgXog==
+
 svelte-preprocess@^5.0.4:
   version "5.0.4"
   resolved "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-5.0.4.tgz"
