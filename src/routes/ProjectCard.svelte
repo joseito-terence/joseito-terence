@@ -24,7 +24,7 @@
 		<div
 			transition:fly={{ y: 70, duration: 500, delay: 300 }}
 			class="bg-base-200 dark:bg-secondary-content border-neutral-focus border-2 rounded-xl p-3 md:p-5
-  		flex flex-col md:flex-row gap-5 group-odd/card:md:flex-row-reverse"
+  		flex flex-col md:flex-row gap-5 group-even/card:md:flex-row-reverse"
 		>
 			<div class="flex flex-col justify-between flex-1">
 				<div>
@@ -33,7 +33,7 @@
 						{project.description}
 					</p>
 
-					<div class="text-sm my-3 flex flex-wrap gap-2">
+					<div class="text-sm my-3 flex flex-wrap gap-2 text-white dark:text-white/70">
 						{#each project.tags as tag}
 							<span class="rounded bg-neutral-focus py-1 px-2">{tag}</span>
 						{/each}
