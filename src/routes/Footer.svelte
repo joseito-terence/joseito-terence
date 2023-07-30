@@ -81,14 +81,14 @@
 					<label for="name" class="label">
 						<span class="label-text font-bold">Name</span>
 					</label>
-					<input type="text" name="name" id="name" class="input input-bordered w-full" />
+					<input type="text" name="name" id="name" class="input input-bordered w-full" required />
 				</div>
 
 				<div class="form-control w-full">
 					<label for="message" class="label">
 						<span class="label-text font-bold">Message</span>
 					</label>
-					<textarea name="message" id="message" class="textarea textarea-bordered" />
+					<textarea name="message" id="message" class="textarea textarea-bordered" required />
 				</div>
 
 				<button type="submit" class="btn mt-7 float-right">
