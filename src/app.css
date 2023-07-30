@@ -9,3 +9,9 @@
 .skill-svg {
   @apply w-[50px] h-[50px] md:w-[80px] md:h-[80px] fill-[#1A1A1A]
 }
+
+@layer utilities {
+  .animate-pause {
+    animation-play-state: paused;
+  }
+}

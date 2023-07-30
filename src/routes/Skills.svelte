@@ -38,12 +38,12 @@
 	class="bg-neutral relative p-3
 	min-h-[124px] md:min-h-[400vh]
   rotate-0 translate-x-0 translate-y-0
-  md:rotate-12 md:translate-x-[10%] md:translate-y-[-10%]"
+  md:rotate-12 md:translate-x-[10%] md:translate-y-[-35%]"
 >
 	<div
 		class="flex
     md:grid md:grid-cols-2 gap-3
-    animate-slideX md:animate-slideY hover:no-animation"
+    animate-slideX md:animate-slideY hover:animate-pause"
 	>
 		{#each skills as { name, icon }, i}
 			<div
