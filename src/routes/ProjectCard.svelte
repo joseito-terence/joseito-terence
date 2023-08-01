@@ -47,7 +47,7 @@
 				<div class="flex flex-row gap-3 mt-6 justify-between md:justify-normal">
 					{#if project.links?.site}
 						<a href={project.links.site} target="_blank">
-							<button class="btn group/site">
+							<button class="btn bg-black/90 dark:bg-black/75 text-white hover:bg-black group/site">
 								View Site
 								<span
 									class="w-[24px] h-[24px] relative transition-all group-hover/site:translate-x-1"
@@ -55,7 +55,7 @@
 									<span
 										class="w-[15px] h-[2px] opacity-0 rounded absolute top-[46%] right-[40%]
 										group-hover/site:opacity-100 transition-all
-										bg-[hsl(var(--bc)_/_var(--tw-text-opacity))]"
+										bg-white"
 									/>
 									<IoIosArrowForward />
 								</span>

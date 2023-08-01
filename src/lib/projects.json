@@ -21,7 +21,7 @@
 	},
 	{
 		"title": "Task Master",
-		"description": "A personal portfolio website to showcase my projects and skills.",
+		"description": "A simple Kanban board to manage tasks and collaborate in teams.",
 		"image": "https://github.com/Charlton-Dias/task-master/raw/main/screenshots/board.png",
 		"tags": ["NextJS", "MaterialUI", "Typescript", "TRPC", "Prisma", "Zod"],
 		"links": {
