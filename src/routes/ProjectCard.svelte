@@ -18,7 +18,7 @@
 <div
 	use:inview={options}
 	on:inview_change={({ detail }) => (isInView = detail.inView)}
-	class="min-h-[100px] group/card"
+	class="min-h-[520px] md:min-h-[230px] group/card"
 >
 	{#if isInView}
 		<div
