@@ -2,7 +2,7 @@
   {
     "title": "Personal Protfolio",
     "description": "A personal portfolio website to showcase my projects and skills. An opportunity to learn Svelte and Tailwind.",
-		"image": "https://lh3.googleusercontent.com/drive-viewer/AITFw-z9aNv96suYW0sEfAzevqJ5pa15Hj7nrHzRN3sNMJrwmp97WuZWl9x3ZjJgEXcM0MaO--EGHqMQHGVW2vJ8m6__rEzg=s1600",
+		"image": "./projects/portfoliomockup.jpg",
     "tags": ["Svelte", "Tailwind", "DaisyUI"],
     "links": {
       "site": "https://joseito-terence.github.io/",
@@ -13,7 +13,7 @@
   {
     "title": "Infofest 2023",
     "description": "Website for a National level tech event organized by the DCST Students of Goa University.",
-		"image": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wj0fE6-T971dVk6Dovp4nIWFpCukCogHA4DydYT-cLrFc2oxVdARJaBMP4aZZrQg9yMIjF1qvsqoTd360ltZgKbE6sRQ=s1600",
+		"image": "./projects/infofest23mockup.jpg",
     "tags": ["React", "Framer Motion", "Styled Components"],
     "links": {
       "site": "https://infofest.tech/"
