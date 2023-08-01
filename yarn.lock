@@ -266,11 +266,6 @@
   dependencies:
     import-meta-resolve "^3.0.0"
 
-"@sveltejs/adapter-static@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-2.0.2.tgz"
-  integrity sha512-9wYtf6s6ew7DHUHMrt55YpD1FgV7oWql2IGsW5BXquLxqcY9vjrqCFo0TzzDpo+ZPZkW/v77k0eOP6tsAb8HmQ==
-
 "@sveltejs/kit@^1.20.4":
   version "1.22.3"
   resolved "https://registry.npmjs.org/@sveltejs/kit/-/kit-1.22.3.tgz"

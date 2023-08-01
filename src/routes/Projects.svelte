@@ -1,6 +1,6 @@
 <script>
-	import ProjectCard from "./ProjectCard.svelte";
-  import projects from "$lib/projects.json";
+	import ProjectCard from './ProjectCard.svelte';
+	import projects from '$lib/projects.json';
 </script>
 
 <section id="projects" class="relative overflow-hidden">
@@ -8,15 +8,17 @@
 		class="text-neutral/5 dark:text-neutral-content/5
     font-extrabold text-[12rem] leading-none tracking-widest uppercase
     w-[110%] absolute ms-[-3%] select-none"
-	>projects</div>
+	>
+		projects
+	</div>
 
 	<div class="container my-6">
 		<h1 class="font-bold uppercase tracking-widest text-3xl relative py-9 my-5">Projects</h1>
 
-    <div class="mt-10 flex flex-col gap-4">
-      {#each projects as project}
-        <ProjectCard {project} />
-      {/each}
-    </div>
+		<div class="mt-10 flex flex-col gap-4">
+			{#each projects as project}
+				<ProjectCard {project} />
+			{/each}
+		</div>
 	</div>
 </section>

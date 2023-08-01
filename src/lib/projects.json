@@ -1,91 +1,99 @@
 [
-  {
-    "title": "Personal Protfolio",
-    "description": "A personal portfolio website to showcase my projects and skills. An opportunity to learn Svelte and Tailwind.",
+	{
+		"title": "Personal Protfolio",
+		"description": "A personal portfolio website to showcase my projects and skills. An opportunity to learn Svelte and Tailwind.",
 		"image": "./projects/portfoliomockup.jpg",
-    "tags": ["Svelte", "Tailwind", "DaisyUI"],
-    "links": {
-      "site": "https://joseito-terence.github.io/",
-      "github": "https://github.com/joseito-terence",
-      "figma": "https://www.figma.com/file/0ZnbhtAgTWePldSPfhX4cF/Personal-Portfolio?type=design&node-id=5%3A5&mode=design&t=HeoTwm8XfcYBaETJ-1"
-    }
-  },
-  {
-    "title": "Infofest 2023",
-    "description": "Website for a National level tech event organized by the DCST Students of Goa University.",
+		"tags": ["Svelte", "Tailwind", "DaisyUI"],
+		"links": {
+			"site": "https://joseito-terence.github.io/",
+			"github": "https://github.com/joseito-terence",
+			"figma": "https://www.figma.com/file/0ZnbhtAgTWePldSPfhX4cF/Personal-Portfolio?type=design&node-id=5%3A5&mode=design&t=HeoTwm8XfcYBaETJ-1"
+		}
+	},
+	{
+		"title": "Infofest 2023",
+		"description": "Website for a National level tech event organized by the DCST Students of Goa University.",
 		"image": "./projects/infofest23mockup.jpg",
-    "tags": ["React", "Framer Motion", "Styled Components"],
-    "links": {
-      "site": "https://infofest.tech/"
-    }
-  },
-  {
-    "title": "Task Master",
-    "description": "A personal portfolio website to showcase my projects and skills.",
+		"tags": ["React", "Framer Motion", "Styled Components"],
+		"links": {
+			"site": "https://infofest.tech/"
+		}
+	},
+	{
+		"title": "Task Master",
+		"description": "A personal portfolio website to showcase my projects and skills.",
 		"image": "https://github.com/Charlton-Dias/task-master/raw/main/screenshots/board.png",
-    "tags": ["NextJS", "MaterialUI", "Typescript", "TRPC", "Prisma", "Zod"],
-    "links": {
-      "site": "https://task-master-v1.vercel.app/",
-      "github": "https://github.com/Charlton-Dias/task-master"
-    }
-  },
-  {
-    "title": "Frontend Challenges",
-    "description": "A collection of frontend challenges to help improve my skills in building ui.",
+		"tags": ["NextJS", "MaterialUI", "Typescript", "TRPC", "Prisma", "Zod"],
+		"links": {
+			"site": "https://task-master-v1.vercel.app/",
+			"github": "https://github.com/Charlton-Dias/task-master"
+		}
+	},
+	{
+		"title": "Frontend Challenges",
+		"description": "A collection of frontend challenges to help improve my skills in building ui.",
 		"image": "https://github.com/joseito-terence/frontend-challenges/raw/master/landing-page-screenshot.png",
-    "tags": ["NextJS", "Styled Components", "Typescript"],
-    "links": {
-      "site": "https://jtf-ui-challenges.vercel.app/",
-      "github": "https://github.com/joseito-terence/frontend-challenges"
-    }
-  },
-  {
-    "title": "SpeedWaGoan",
-    "description": "An e-commerce web application. Features include Responsive UI, Cart, Wishlist, Search/Filter Products. Also includes Admin and Seller Applications.",
+		"tags": ["NextJS", "Styled Components", "Typescript"],
+		"links": {
+			"site": "https://jtf-ui-challenges.vercel.app/",
+			"github": "https://github.com/joseito-terence/frontend-challenges"
+		}
+	},
+	{
+		"title": "SpeedWaGoan",
+		"description": "An e-commerce web application. Features include Responsive UI, Cart, Wishlist, Search/Filter Products. Also includes Admin and Seller Applications.",
 		"image": "https://github.com/joseito-terence/speedwagoan/raw/master/readme_images/394.jpg",
-    "tags": ["React", "Firebase", "Bootstrap", "Algolia Search", "Razorpay", "Redux"],
-    "links": {
-      "site": "https://speedwagoan.web.app",
-      "github": "https://github.com/joseito-terence/speedwagoan/"
-    }
-  },
-  {
-    "title": "myExpenses",
-    "description": "An easy to use expense tracker. Originally built in PHP for a intra-college competition where it won the 2nd prize and later rebuilt in React.",
+		"tags": ["React", "Firebase", "Bootstrap", "Algolia Search", "Razorpay", "Redux"],
+		"links": {
+			"site": "https://speedwagoan.web.app",
+			"github": "https://github.com/joseito-terence/speedwagoan/"
+		}
+	},
+	{
+		"title": "myExpenses",
+		"description": "An easy to use expense tracker. Originally built in PHP for a intra-college competition where it won the 2nd prize and later rebuilt in React.",
 		"image": "https://github.com/joseito-terence/myexpenses/raw/master/images/Screenshot-mobile-screens.png",
-    "tags": ["React", "Firebase", "Bootstrap"],
-    "links": {
-      "site": "https://myexpenses2.web.app/",
-      "github": "https://github.com/joseito-terence/myexpenses"
-    }
-  },
-  {
-    "title": "Room Based Chat App",
-    "description": "A Room-based Chat website developed for a college assignment. It includes public rooms where people can chat and have discussions.",
+		"tags": ["React", "Firebase", "Bootstrap"],
+		"links": {
+			"site": "https://myexpenses2.web.app/",
+			"github": "https://github.com/joseito-terence/myexpenses"
+		}
+	},
+	{
+		"title": "Room Based Chat App",
+		"description": "A Room-based Chat website developed for a college assignment. It includes public rooms where people can chat and have discussions.",
 		"image": "https://github.com/joseito-terence/bca-mini-project/raw/master/images/Screenshot-room.jpg",
-    "tags": ["React", "Firebase Auth", "Firestore", "CSS (Flexbox)"],
-    "links": {
-      "site": "https://bca-mini-project.web.app/",
-      "github": "https://github.com/joseito-terence/bca-mini-project"
-    }
-  },
-  {
-    "title": "TPortal",
-    "description": "A is a video dispenser that is designed for parents to provide controlled access to offline video media content to their children.",
+		"tags": ["React", "Firebase Auth", "Firestore", "CSS (Flexbox)"],
+		"links": {
+			"site": "https://bca-mini-project.web.app/",
+			"github": "https://github.com/joseito-terence/bca-mini-project"
+		}
+	},
+	{
+		"title": "TPortal",
+		"description": "A is a video dispenser that is designed for parents to provide controlled access to offline video media content to their children.",
 		"image": "https://github.com/joseito-terence/tportal/raw/master/images/TPortal-SetupScreen.gif",
-    "tags": ["UWP", "C#", "XAML"],
-    "links": {
-      "github": "https://github.com/joseito-terence/tportal"
-    }
-  },
-  {
-    "title": "Quick Access",
-    "description": "An app to store bookmarks/favourite sites in one place and access from anywhere with preferences synced across devices.",
+		"tags": ["UWP", "C#", "XAML"],
+		"links": {
+			"github": "https://github.com/joseito-terence/tportal"
+		}
+	},
+	{
+		"title": "Quick Access",
+		"description": "An app to store bookmarks/favourite sites in one place and access from anywhere with preferences synced across devices.",
 		"image": "https://github.com/joseito-terence/quick-access/raw/master/images/Screenshot-preferences.jpg",
-    "tags": ["React", "MaterialUI", "Firebase", "Unsplash API", "Favicon Kit API", "Official Joke API", "Fetch API"],
-    "links": {
-      "site": "https://quick-access-6293a.web.app/",
-      "github": "https://github.com/joseito-terence/quick-access"
-    }
-  }
+		"tags": [
+			"React",
+			"MaterialUI",
+			"Firebase",
+			"Unsplash API",
+			"Favicon Kit API",
+			"Official Joke API",
+			"Fetch API"
+		],
+		"links": {
+			"site": "https://quick-access-6293a.web.app/",
+			"github": "https://github.com/joseito-terence/quick-access"
+		}
+	}
 ]

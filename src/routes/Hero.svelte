@@ -9,7 +9,7 @@
 	});
 </script>
 
-<section id='home' class="flex flex-row overflow-hidden h-screen">
+<section id="home" class="flex flex-row overflow-hidden h-screen">
 	<div class="container flex flex-col md:flex-row">
 		<div
 			class="min-h-[77vh] h-screen flex-1 flex flex-col justify-center relative

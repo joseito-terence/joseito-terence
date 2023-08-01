@@ -68,7 +68,12 @@
 
 				<div class="flex flex-row gap-2 mt-2">
 					{#each socials as social}
-						<a href={social.link} title={social.name} class="w-[28px] h-[28px] inline-block" target="_blank">
+						<a
+							href={social.link}
+							title={social.name}
+							class="w-[28px] h-[28px] inline-block"
+							target="_blank"
+						>
 							<svelte:component this={social.icon} />
 						</a>
 					{/each}

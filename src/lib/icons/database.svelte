@@ -1,9 +1,4 @@
-<svg
-	fill="#000000"
-	class="skill-svg"
-	viewBox="0 0 32 32"
-	xmlns="http://www.w3.org/2000/svg"
->
+<svg fill="#000000" class="skill-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
 	<path
 		d="M16,14c6.3,0,13-1.93,13-5.5v-3C29,1.93,22.3,0,16,0S3,1.93,3,5.5v3C3,12.07,9.7,14,16,14ZM5,5.5C5,4.07,9.29,2,16,2S27,4.07,27,5.5v3C27,9.93,22.71,12,16,12S5,9.93,5,8.5Z"
 	/>

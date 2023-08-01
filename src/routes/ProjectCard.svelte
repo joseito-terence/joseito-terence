@@ -1,15 +1,19 @@
-<script>
-	// @ts-nocheck
+<script lang="ts">
 	import IoLogoGithub from 'svelte-icons/io/IoLogoGithub.svelte';
 	import FaFigma from 'svelte-icons/fa/FaFigma.svelte';
 	import IoIosArrowForward from 'svelte-icons/io/IoIosArrowForward.svelte';
 	import { inview } from 'svelte-inview';
 	import { fly } from 'svelte/transition';
 
-	/**
-	 * @type {{ title: string; description: string; tags: string[]; links: { site?: string; github?: string; figma?: string; }; image: string; }}
-	 */
-	export let project;
+	type Project = {
+		title: string;
+		description: string;
+		tags: string[];
+		links: { site?: string; github?: string; figma?: string };
+		image: string;
+	};
+
+	export let project: Project;
 
 	let isInView = false;
 	const options = { unobserveOnEnter: true, treshold: 0.5 };
@@ -44,11 +48,15 @@
 					{#if project.links?.site}
 						<a href={project.links.site} target="_blank">
 							<button class="btn group/site">
-								View Site 
-								<span class="w-[24px] h-[24px] relative transition-all group-hover/site:translate-x-1">
-									<span class="w-[15px] h-[2px] opacity-0 rounded absolute top-[46%] right-[40%] 
+								View Site
+								<span
+									class="w-[24px] h-[24px] relative transition-all group-hover/site:translate-x-1"
+								>
+									<span
+										class="w-[15px] h-[2px] opacity-0 rounded absolute top-[46%] right-[40%]
 										group-hover/site:opacity-100 transition-all
-										bg-[hsl(var(--bc)_/_var(--tw-text-opacity))]" />
+										bg-[hsl(var(--bc)_/_var(--tw-text-opacity))]"
+									/>
 									<IoIosArrowForward />
 								</span>
 							</button>
@@ -81,4 +89,3 @@
 		</div>
 	{/if}
 </div>
-
