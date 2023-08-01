@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Joseito Fernandes</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Personal Portfolio" />
 </svelte:head>
 
 <Hero />
