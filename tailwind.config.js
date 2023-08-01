@@ -21,7 +21,7 @@ export default {
 	},
 	plugins: [require('daisyui')],
 	daisyui: {
-		themes: ['light', 'night', 'cyberpunk'],
+		themes: ['light', 'night'],
 		darkTheme: 'night'
 	}
 };
