@@ -19,8 +19,8 @@
 		>
 			{#if showText}
 				<div transition:fly={{ y: 10, duration: 1000 }}>
-					<h1 class="text-7xl font-bold dark:text-white">Hi, I'm Joseito</h1>
-					<h2 class="text-5xl font-medium text-neutral/80 dark:text-neutral-content/70">
+					<h1 class="text-6xl sm:text-7xl font-bold dark:text-white">Hi, <span class="whitespace-nowrap">I'm Joseito</span></h1>
+					<h2 class="text-4xl md:text-5xl font-medium text-neutral/80 dark:text-neutral-content/70">
 						Software Developer
 					</h2>
 				</div>
