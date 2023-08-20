@@ -1,7 +1,8 @@
 <script lang="ts">
 	import logo from '$lib/images/JTF.png';
 	import { onMount } from 'svelte';
-
+  import { base } from '$app/paths';
+	
 	// function toggleTheme() {
 	// 	document.documentElement.dataset.theme =
 	// 		document.documentElement.dataset.theme === 'light' ? 'night' : 'light';
@@ -57,9 +58,9 @@
 		</div>
 
 		<nav class="flex-none flex justify-center items-center gap-4 sm:gap-8 font-medium uppercase">
-			<a href="/" data-page="home">Home</a>
-			<a href="#projects" data-page="projects">Projects</a>
-			<a href="#contact" data-page="contact">Contact</a>
+			<a href="{base}/" data-page="home">Home</a>
+			<a href="{base}/#projects" data-page="projects">Projects</a>
+			<a href="{base}/#contact" data-page="contact">Contact</a>
 			<!-- <input type="checkbox" class="toggle" checked on:change={toggleTheme} /> -->
 			<div
 				id="indicator"
