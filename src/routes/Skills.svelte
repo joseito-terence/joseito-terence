@@ -34,11 +34,13 @@
 	});
 </script>
 
+<!-- md:rotate-12 md:translate-x-[10%] md:translate-y-[-35%] -->
 <div
 	class="bg-neutral relative p-3
 	min-h-[124px] md:min-h-[400vh]
   rotate-0 translate-x-0 translate-y-0
-  md:rotate-12 md:translate-x-[10%] md:translate-y-[-35%]"
+	skills
+	"
 >
 	<div
 		class="flex
@@ -62,3 +64,21 @@
 		{/each}
 	</div>
 </div>
+
+<style>
+	.skills {
+		transition: all;
+		animation: smooth 1s ease-in forwards;
+	}
+	
+	@keyframes smooth {
+		0% {
+			transform: translateX(0);
+			width: 100%;
+		}
+		100% {
+			transform: translateX(-165px) rotateX(6deg) rotateZ(6deg) rotateY(-33deg);
+			width: 118%;
+		}
+	}
+</style>

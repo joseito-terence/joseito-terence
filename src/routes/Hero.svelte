@@ -27,7 +27,7 @@
 			{/if}
 		</div>
 
-		<div class="flex-1">
+		<div class="flex-1" style="perspective: 1000px">
 			<Skills />
 		</div>
 	</div>
