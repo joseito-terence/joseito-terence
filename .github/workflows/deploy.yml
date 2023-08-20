@@ -28,19 +28,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - name: Install yarn
+        uses: mskelton/setup-yarn@v1
         with:
-          version: 8
+          version: 1
       
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
+          cache: yarn
       
       - name: Install dependencies
-        run: pnpm i
+        run: yarn
         
       - name: Setup Pages
         uses: actions/configure-pages@v3
