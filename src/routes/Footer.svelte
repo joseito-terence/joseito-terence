@@ -96,11 +96,11 @@
 					<textarea name="message" id="message" class="textarea textarea-bordered" required />
 				</div>
 
-				<button type="submit" class="btn mt-7 float-right">
+				<button type="submit" class="btn mt-7 float-right group">
 					{#if isSending}
 						<span class="loading loading-spinner" />
 					{:else}
-						<div class="w-[25px] h-[25px]">
+						<div class="w-[25px] h-[25px] transition-all group-hover:rotate-12">
 							<IoIosPaperPlane />
 						</div>
 					{/if}
