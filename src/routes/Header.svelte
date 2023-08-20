@@ -1,8 +1,8 @@
 <script lang="ts">
 	import logo from '$lib/images/JTF.png';
 	import { onMount } from 'svelte';
-  import { base } from '$app/paths';
-	
+	import { base } from '$app/paths';
+
 	// function toggleTheme() {
 	// 	document.documentElement.dataset.theme =
 	// 		document.documentElement.dataset.theme === 'light' ? 'night' : 'light';
@@ -52,9 +52,11 @@
 >
 	<div class="container flex flex-row items-center">
 		<div class="flex-1">
-			<div class="w-[40px] h-[40px] rounded-full bg-slate-300 flex justify-center items-center">
-				<img src={logo} alt="JTF" class="object-contain scale-[1.3] ms-[4px]" />
-			</div>
+			<a href="{base}/">
+				<div class="w-[40px] h-[40px] rounded-full bg-slate-300 flex justify-center items-center">
+					<img src={logo} alt="JTF" class="object-contain scale-[1.3] ms-[4px]" />
+				</div>
+			</a>
 		</div>
 
 		<nav class="flex-none flex justify-center items-center gap-4 sm:gap-8 font-medium uppercase">
