@@ -5,8 +5,8 @@
 		"image": "./projects/portfoliomockup.jpg",
 		"tags": ["Svelte", "Tailwind", "DaisyUI"],
 		"links": {
-			"site": "https://joseito-terence.github.io/",
-			"github": "https://github.com/joseito-terence",
+			"site": "/",
+			"github": "https://github.com/joseito-terence/joseito-terence",
 			"figma": "https://www.figma.com/file/0ZnbhtAgTWePldSPfhX4cF/Personal-Portfolio?type=design&node-id=5%3A5&mode=design&t=HeoTwm8XfcYBaETJ-1"
 		}
 	},
