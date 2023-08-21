@@ -65,19 +65,39 @@
 
 					<div class="flex flex-row gap-3">
 						{#if project.links?.github}
-							<div class="tooltip" data-tip="View Code">
-								<a href={project.links.github} target="_blank" class="btn btn-circle p-1">
+							<a
+								href={project.links.github}
+								target="_blank"
+								class="btn w-[48px] rounded-full hover:w-[132px] p-1 flex justify-start transition-all duration-500
+								group overflow-hidden flex-nowrap"
+							>
+								<div class="h-[100%] aspect-square">
 									<IoLogoGithub />
-								</a>
-							</div>
+								</div>
+								<span
+									class="opacity-0 group-hover:opacity-100 min-w-[78px] ml-[-6px] transition-opacity"
+								>
+									View Code
+								</span>
+							</a>
 						{/if}
 
 						{#if project.links?.figma}
-							<div class="tooltip" data-tip="View Design">
-								<a href={project.links.figma} target="_blank" class="btn btn-circle p-2">
+							<a
+								href={project.links.figma}
+								target="_blank"
+								class="btn w-[48px] rounded-full hover:w-[140px] p-1 flex justify-start items-center transition-all duration-500
+								group overflow-hidden flex-nowrap"
+							>
+								<div class="h-[80%] aspect-square ml-[4px]">
 									<FaFigma />
-								</a>
-							</div>
+								</div>
+								<span
+									class="opacity-0 group-hover:opacity-100 min-w-[90px] ml-[-6px] transition-opacity"
+								>
+									View Design
+								</span>
+							</a>
 						{/if}
 					</div>
 				</div>
