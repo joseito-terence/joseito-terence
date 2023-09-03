@@ -10,7 +10,7 @@
 	const socials = [
 		{ name: 'Github', link: 'https://github.com/joseito-terence', icon: IoLogoGithub },
 		{ name: 'Twitter', link: 'https://twitter.com/joseito_terence', icon: IoLogoTwitter },
-		{ name: 'LinkedIn', link: 'https://twitter.com/joseito_terence', icon: IoLogoLinkedin }
+		{ name: 'LinkedIn', link: 'https://www.linkedin.com/in/joseito-terence', icon: IoLogoLinkedin }
 	];
 
 	let isSending = false;
