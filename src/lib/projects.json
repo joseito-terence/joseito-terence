@@ -1,5 +1,14 @@
 [
 	{
+		"title": "Artwork",
+		"description": "A website showcasing all my paintings/sketches from my school days. Built for a college assignment.",
+		"image": "./projects/artworkmockup.png",
+		"tags": ["WordPress"],
+		"links": {
+			"site": "https://joseito10art.wordpress.com/"
+		}
+	},
+	{
 		"title": "Personal Protfolio",
 		"description": "A personal portfolio website to showcase my projects and skills. An opportunity to learn Svelte and Tailwind.",
 		"image": "./projects/portfoliomockup.jpg",
