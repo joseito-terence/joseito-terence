@@ -1,5 +1,15 @@
 [
 	{
+		"title": "Itemize",
+		"description": "The ultimate home inventory management system, streamlining the way you organize living spaces.",
+		"image": "https://github.com/joseito-terence/itemize/assets/74445627/793182b0-6be4-4ba8-bb23-91380dbd3e17",
+		"tags": ["React Native", "Firebase", "Typescript", "React Native Paper", "Nativewind", "Redux Toolkit"],
+		"links": {
+			"github": "https://github.com/joseito-terence/itemize",
+			"figma": "https://www.figma.com/design/RSrk1RtzuAXQjjYBKFS1j8/Itemize?node-id=0-1&t=sw9CxDKyPTqren6i-1"
+		}
+	},
+	{
 		"title": "Artwork",
 		"description": "A website showcasing all my paintings/sketches from my school days. Built for a college assignment.",
 		"image": "./projects/artworkmockup.png",
