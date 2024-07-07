@@ -75,7 +75,7 @@
 									<IoLogoGithub />
 								</div>
 								<span
-									class="opacity-0 group-hover:opacity-100 min-w-[78px] ml-[-6px] transition-opacity"
+									class="opacity-0 group-hover:opacity-100 min-w-[80px] ml-[-6px] transition-opacity"
 								>
 									View Code
 								</span>
@@ -86,14 +86,14 @@
 							<a
 								href={project.links.figma}
 								target="_blank"
-								class="btn w-[48px] rounded-full hover:w-[140px] p-1 flex justify-start items-center transition-all duration-500
+								class="btn w-[48px] rounded-full hover:w-[142px] p-1 flex justify-start items-center transition-all duration-500
 								group overflow-hidden flex-nowrap"
 							>
 								<div class="h-[80%] aspect-square ml-[4px]">
 									<FaFigma />
 								</div>
 								<span
-									class="opacity-0 group-hover:opacity-100 min-w-[90px] ml-[-6px] transition-opacity"
+									class="opacity-0 group-hover:opacity-100 min-w-[93px] ml-[-6px] transition-opacity"
 								>
 									View Design
 								</span>
