@@ -45,7 +45,7 @@
 		"image": "./projects/infofest23mockup.jpg",
 		"tags": ["React", "Framer Motion", "Styled Components"],
 		"links": {
-			"site": "https://infofest.tech/"
+			"site": "https://infofest.netlify.app/"
 		}
 	},
 	{
