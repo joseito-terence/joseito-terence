@@ -1,5 +1,15 @@
 [
 	{
+		"title": "Caverno",
+		"description": "Songs archive app with some cool animations and interactions built with Moti, Reanimated and Gesture Handler.",
+		"image": "https://github.com/joseito-terence/caverno/blob/main/assets/caverno.gif?raw=true",
+		"tags": ["React Native/Expo Router", "Supabase", "Typescript", "Moti", "Reanimated", "Gesture Handler", "Nativewind"],
+		"links": {
+			"github": "https://github.com/joseito-terence/itemize",
+			"figma": "https://www.figma.com/design/RSrk1RtzuAXQjjYBKFS1j8/Itemize?node-id=0-1&t=sw9CxDKyPTqren6i-1"
+		}
+	},
+	{
 		"title": "Itemize",
 		"description": "The ultimate home inventory management system, streamlining the way you organize living spaces.",
 		"image": "https://github.com/joseito-terence/itemize/assets/74445627/793182b0-6be4-4ba8-bb23-91380dbd3e17",
