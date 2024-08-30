@@ -2,7 +2,7 @@
 	{
 		"title": "Caverno",
 		"description": "Songs archive app with some cool animations and interactions built with Moti, Reanimated and Gesture Handler.",
-		"image": "https://github.com/joseito-terence/caverno/blob/main/assets/caverno.gif?raw=true",
+		"image": "./projects/caverno.gif",
 		"tags": ["React Native/Expo Router", "Supabase", "Typescript", "Moti", "Reanimated", "Gesture Handler", "Nativewind"],
 		"links": {
 			"github": "https://github.com/joseito-terence/caverno"
