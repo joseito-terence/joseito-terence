@@ -62,11 +62,11 @@
 					<span>joseito.terence@gmail.com</span>
 				</a>
 
-				<a href="tel:+919637352760" class="flex items-center gap-1">
+				<a href="tel:+447867633529" class="flex items-center gap-1">
 					<div class="w-[32px] h-[32px]">
 						<IoIosCall />
 					</div>
-					<span>+91 9637352760</span>
+					<span>+44 7867 633529</span>
 				</a>
 
 				<div class="flex flex-row gap-2 mt-2">
